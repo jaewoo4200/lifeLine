@@ -10,15 +10,21 @@ div { float: left; }
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>lifeLine(건물 대피도)</title>
+    <title>lifeLine(건물 구조도)</title>
 </head>
 
 <body>
     <h1 style="font-family: 'Nanum Gothic';"> lifeLine[고등] 구현물 </h1>
     <h3 style="font-family: 'Nanum Gothic';"> 2019 삼성전자 주니어 소프트웨어 창작대회 </h3>
-    <p style="font-family: 'Nanum Gothic';"> 화재가 감지되었습니다. 현재 위치 확인 후, 아래 대피도에 따라 신속하게 대피해주시기 바랍니다. </p>
-    <img src="https://i.ibb.co/4tBKrGS/FINAL.gif" alt="Evacuation" width="850" height="522" data-load="full" style="border:7px solid #383b4c;background-color:white">
-    <h3 style="font-family: 'Nanum Gothic';"> 건물에 설치된 카메라의 실시간 영상입니다. </h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/U_sYIKWhJvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style="font-family: 'Nanum Gothic';"> 7층의 구조도입니다. 현재 위치는 빨간 점으로 표시되어 있습니다. </p>
+    <p style="font-family: 'Nanum Gothic';"> 실시간 영상은 웹사이트 아래 부분에서 확인 가능합니다. </p>
+    <p style="font-family: 'Nanum Gothic';">  </p>
+    <img src="https://i.ibb.co/4Y5wShN/image.gif" alt="2D Drawing" width="800" height="533" data-load="full" style="border:7px solid #383b4c;background-color:white">
+    <h3 style="font-family: 'Nanum Gothic';"> 건물에 설치된 카메라의 실시간 영상입니다.(1번 카메라) </h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2kwohEtCoD4?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3 style="font-family: 'Nanum Gothic';"> 건물에 설치된 카메라의 실시간 영상입니다.(2번 카메라) </h3>
+    <img id="stream" src="http://72.52.116.28/mjpg/video.mjpg?timestamp=1570603088109" width="640" height="480" border="0">
+    <br>
+    <a target="_blank" href="/evacuation" style="font-family: 'Nanum Gothic';"> 화재 대피도 미리보기 </a>
 </body>
 </html>
