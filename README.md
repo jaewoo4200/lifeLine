@@ -9,3 +9,12 @@
 구현 : 라즈베리파이에 센서 직접 연결>라즈베리파이와 웹사이트 통신>웹사이트에서 탈출 루트 확인(층 별 조감도에서 안전한 장소를 파악하여 탈출로를 그려줌)
 
 추가 사항 : 대피도 HTML에 유튜브 라이브 엠베드 기능을 추가함.
+
+미리보기 URL 추가
+
+Main : main.lifeline.kro.kr
+
+건물 구조도 : structure..lifeline.kro.kr
+
+건물 대피도 : evacuation.kro.kr
+
