@@ -12,9 +12,9 @@
 
 미리보기 URL 추가
 
-Main : main.lifeline.kro.kr
+Main : http://main.lifeline.kro.kr
 
-건물 구조도 : structure..lifeline.kro.kr
+건물 구조도 : http://structure..lifeline.kro.kr
 
-건물 대피도 : evacuation.kro.kr
+건물 대피도 : http://evacuation.kro.kr
 
