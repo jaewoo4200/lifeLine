@@ -10,7 +10,7 @@
 
 추가 사항 : 대피도 HTML에 유튜브 라이브 엠베드 기능을 추가함.
 
-미리보기 URL 추가
+-- 미리보기 URL 추가 --
 
 Main : http://main.lifeline.kro.kr
 
